@@ -1,0 +1,161 @@
+{
+ "properties": {
+  "displayName": "Policy Windows",
+  "policyType": "Custom",
+  "description": "Policy Windows",
+  "metadata": {
+   "createdBy": "df87fda6-d1f6-471b-ac02-4b8e0857c7bd",
+   "createdOn": "2022-04-01T05:20:00.1529931Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Internet-facing virtual machines should be protected with network security groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f6de0be7-9a8a-4b8a-b349-43cf02d22f7c",
+    "parameters": {},
+    "groupNames": [
+     "Secure management ports"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Management ports should be closed on your virtual machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/22730e10-96f6-4aac-ad84-9383d35b5917",
+    "parameters": {},
+    "groupNames": [
+     "Secure management ports"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Management ports of virtual machines should be protected with just-in-time network access control_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/b0f33259-77d7-4c9e-aac6-3aabcfae693c",
+    "parameters": {},
+    "groupNames": [
+     "Secure management ports"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "System updates should be installed on your machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/86b3d65f-7626-441e-b690-81a8b71cff60",
+    "parameters": {},
+    "groupNames": [
+     "Apply system updates"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Adaptive application controls for defining safe applications should be enabled on your machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/47a6b606-51aa-4496-8bb7-64b11cf66adc",
+    "parameters": {},
+    "groupNames": [
+     "Apply system updates"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Endpoint protection should be installed on your machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1f7c564c-0a90-4d44-b7e1-9d456cffaee8",
+    "parameters": {},
+    "groupNames": [
+     "Apply system updates"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "All network ports should be restricted on network security groups associated to your virtual machine_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9daedab3-fb2d-461e-b861-71790eead4f6",
+    "parameters": {},
+    "groupNames": [
+     "Restrict unauthorized network access"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Adaptive network hardening recommendations should be applied on internet facing virtual machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/08e6af2d-db70-460a-bfe9-d5bd474ba9d6",
+    "parameters": {},
+    "groupNames": [
+     "Restrict unauthorized network access"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "IP Forwarding on your virtual machine should be disabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/bd352bd5-2853-4985-bf0d-73806b4a5744",
+    "parameters": {},
+    "groupNames": [
+     "Restrict unauthorized network access"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Private endpoint should be enabled for MySQL servers_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7595c971-233d-4bcf-bd18-596129188c49",
+    "parameters": {},
+    "groupNames": [
+     "Restrict unauthorized network access"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Container registries should use private link_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e8eef0a8-67cf-4eb4-9386-14b0e78733d4",
+    "parameters": {},
+    "groupNames": [
+     "Restrict unauthorized network access"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Public network access should be disabled for MySQL servers_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d9844e8a-1437-4aeb-a32c-0c992f056095",
+    "parameters": {},
+    "groupNames": [
+     "Restrict unauthorized network access"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should restrict network access using virtual network rules_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a1a9cdf-e04d-429a-8416-3bfb72a1b26f",
+    "parameters": {},
+    "groupNames": [
+     "Restrict unauthorized network access"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Guest Configuration extension should be installed on your machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ae89ebca-1c92-4898-ac2c-9f63decb045c",
+    "parameters": {},
+    "groupNames": [
+     "Restrict unauthorized network access"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Secure transfer to storage accounts should be enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
+    "parameters": {},
+    "groupNames": [
+     "Encrypt data in transit"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Enforce SSL connection should be enabled for MySQL database servers_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e802a67a-daf5-4436-9ea6-f6d821dd0c5d",
+    "parameters": {},
+    "groupNames": [
+     "Encrypt data in transit"
+    ]
+   }
+  ],
+  "policyDefinitionGroups": [
+   {
+    "name": "Secure management ports"
+   },
+   {
+    "name": "Apply system updates"
+   },
+   {
+    "name": "Restrict unauthorized network access"
+   },
+   {
+    "name": "Encrypt data in transit"
+   }
+  ]
+ },
+ "id": "/subscriptions/86e472e1-8cf6-4dac-8db1-62b6bf8aeba3/providers/Microsoft.Authorization/policySetDefinitions/accfbe8c6f464f0f851c0c32",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "accfbe8c6f464f0f851c0c32"
+}
